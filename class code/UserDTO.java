@@ -1,0 +1,22 @@
+package com.example.demo;
+
+public class UserDTO {
+
+    public Integer id;
+    public String name;
+    public String user_name;
+    public String email;
+
+    public UserDTO() {
+    }
+
+    @Override
+    public String toString() {
+        return "UserTDO{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", user_name='" + user_name + '\'' +
+                ", email='" + email + '\'' +
+                '}';
+    }
+}
